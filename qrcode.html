@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>JS二维码</title>
+<script src="qrcode.js"></script>
+</head>
+
+<style type="text/css">
+	
+	#qrcode{
+		margin: 15px;
+	}
+	
+</style>
+<body>
+
+<div id="qrcode"></div>
+<script type="text/javascript">
+	new QRCode(document.getElementById("qrcode"), "http://blog.csdn.net/DickyQie");
+</script>
+</body>
+</html>
